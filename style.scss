@@ -1,0 +1,23 @@
+$primary-color: #4b0082;
+$secondary-color: #000;
+$font-stack: 'Arial', sans-serif;
+
+body {
+  font-family: $font-stack;
+  background-color: #f4f4f4;
+  color: $secondary-color;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: $primary-color;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
